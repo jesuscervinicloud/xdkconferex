@@ -204,7 +204,7 @@ label{font-weight: 400; font-size: @fontSize;}
 
 .text-uppercase{text-transform:uppercase !important;}
 .text-caps{text-transform:uppercase !important;}
-.text-capitalize{text-transform: capitalize !important;}
+.text-initial{text-transform: initial !important;}
 .text-normal{text-transform: none !important;}
 
 .text-right{text-align:right !important;}
@@ -577,17 +577,17 @@ header .navbar-fixed .navbar{width:100%;}
 .wp-block.default > figure > img{width: 100%; max-width: 100%;}
 .wp-block.default > .wp-block-footer{display:block; background:@bgWhite; padding:15px;}
 .wp-block.default:hover > .wp-block-footer{background:@bgWhite;}
-.wp-block.default > .wp-block-footer h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:capitalize;}
+.wp-block.default > .wp-block-footer h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:initial;}
 
 .wp-block-date-over{position: absolute; top: 10px; right: 10px; padding: 10px; background: @bgWhite; color: @cGray; border-radius: @blockRadius; font-weight: 400; font-size: 12px;}
 .wp-block-date-over.alpha{background: rgba(red(@bgWhite), green(@bgWhite), blue(@bgWhite), 0.7);}
 
 .wp-block-info-over{width:100%; padding:10px; position:absolute; bottom:0; background: @bgWhite;}
-.wp-block-info-over h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:capitalize;}
+.wp-block-info-over h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:initial;}
 .wp-block-info-over h3 a{color:@cWhite;}
 .wp-block-info-over h3 small{color:@cWhite; font-size:11px;}
 .wp-block-info-over{width:100%; padding:10px; background:@bgAlt; border-top:1px solid @borderColor;}
-.wp-block-info-over h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:capitalize;}
+.wp-block-info-over h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:initial;}
 .wp-block-info-over h3 a{}
 .wp-block-info-over h3 small{font-size:11px;}
 .wp-block-info-over h3 small a{}
@@ -595,8 +595,8 @@ header .navbar-fixed .navbar{width:100%;}
 .wp-block-info-over.left{background:transparent; border:0; padding:0; position:absolute; bottom:55px; left:0; }
 .wp-block.default.thumbnail > .wp-block-info-over.left{left:5px;}
 .wp-block-info-over.left h2{font-size:@fontSize; font-weight:normal;}
-.wp-block-info-over.left h2 a{padding:10px 15px 20px 15px; margin:0; font-size:@fontSize-md; text-transform:capitalize; font-weight:600; background:@bgBaseContrastAlpha; background:@bgBaseContrast; color:@linkColorL; border-top-right-radius:3px; border-bottom-right-radius:3px;}
-.wp-block-info-over.left h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:capitalize;}
+.wp-block-info-over.left h2 a{padding:10px 15px 20px 15px; margin:0; font-size:@fontSize-md; text-transform:initial; font-weight:600; background:@bgBaseContrastAlpha; background:@bgBaseContrast; color:@linkColorL; border-top-right-radius:3px; border-bottom-right-radius:3px;}
+.wp-block-info-over.left h3{padding:0; margin:0; font-size:@fontSize; font-weight:600; text-transform:initial;}
 .wp-block-info-over.left h2 .label{position:absolute; bottom:-30px; left:15px; padding:.5em .6em .5em;}
 .wp-block-info-over.left h3 a{color:@cWhite;}
 .wp-block-info-over.left h3 small{color:@cWhite; font-size:11px;}
@@ -1235,7 +1235,7 @@ section.slice-over-elements{position:absolute; top:-50px; z-index:2500;}
 	-o-transition: -o-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
-.animate-hover-slide .figure .figcaption-txt .title{padding:0; margin:30px 0 0 0; color:#fff; font-size:18px; text-transform:capitalize;}	
+.animate-hover-slide .figure .figcaption-txt .title{padding:0; margin:30px 0 0 0; color:#fff; font-size:18px; text-transform:initial;}	
 .animate-hover-slide .figure .figcaption-txt .subtitle{padding:0; margin:0; color:#fff; font-size:12px;}	
 .animate-hover-slide .figure a{position:relative; top:94%; margin-top:-11px;}
 .animate-hover-slide .figure .figcaption h3{padding-bottom:5px; margin-bottom:10px; font-size:14px; font-weight:600; border-bottom:1px solid #f2f2f2;}
@@ -1315,7 +1315,7 @@ transition: transform 0.4s, opacity 0.1s 0.3s;}
 	opacity:1;
 	
 }
-.animate-hover-slide-4 .figure .figcaption-txt .title{padding:0; margin:30px 0 0 0; color:#fff; font-size:18px; text-transform:capitalize;}	
+.animate-hover-slide-4 .figure .figcaption-txt .title{padding:0; margin:30px 0 0 0; color:#fff; font-size:18px; text-transform:initial;}	
 .animate-hover-slide-4 .figure .figcaption-txt .subtitle{padding:0; margin:0; color:#fff; font-size:12px;}	
 .animate-hover-slide-4 .figure a{position:relative; top:94%; margin-top:-11px;}
 .animate-hover-slide-4 .figure .figcaption h3{padding-bottom:5px; margin-bottom:10px; font-size:14px; font-weight:600; border-bottom:1px solid #f2f2f2;}
@@ -2343,8 +2343,8 @@ blockquote footer{background: transparent;}
 .layer-slider-wrapper .title-md{font-size: 64px; line-height: 68px;}
 .layer-slider-wrapper .title-lg{font-size: 80px; line-height: 84px;}
 .layer-slider-wrapper .text-shadow{text-shadow: 0 2px 2px #222;}
-.layer-slider-wrapper .subtitle{font-size: 22px; line-height: 30px; color: @bgBase; text-transform: capitalize;}
-.layer-slider-wrapper .list-item{font-size:18px; line-height:30px; padding-left:30px; color:@bgBase; text-transform:capitalize;}
+.layer-slider-wrapper .subtitle{font-size: 22px; line-height: 30px; color: @bgBase; text-transform: initial;}
+.layer-slider-wrapper .list-item{font-size:18px; line-height:30px; padding-left:30px; color:@bgBase; text-transform:initial;}
 .layer-slider-wrapper .list-item-2{}
 .layer-slider-wrapper .list-item-2 span{background:@bgBase; font-size:18px; padding:10px 15px; color:@cWhite; }
 .layer-slider-wrapper .list-item-2 i{padding:12px 12px 11px 12px; font-size:20px; background:@bgSliderOne; color:@cSliderOne;}
@@ -2367,8 +2367,8 @@ blockquote footer{background: transparent;}
 .static-page-image .title-md{font-size: 3vw !important; line-height: 3.5vw;}
 .static-page-image .title-lg{font-size: 5.5vw !important; line-height: 6vw;}
 .static-page-image .text-shadow{text-shadow: 0 2px 2px #222;}
-.static-page-image .subtitle{font-size: 22px; line-height: 30px; color: @bgBase; text-transform: capitalize;}
-.static-page-image .list-item{font-size:18px; line-height:30px; padding-left:30px; color:@bgBase; text-transform:capitalize;}
+.static-page-image .subtitle{font-size: 22px; line-height: 30px; color: @bgBase; text-transform: initial;}
+.static-page-image .list-item{font-size:18px; line-height:30px; padding-left:30px; color:@bgBase; text-transform:initial;}
 .static-page-image .list-item-2{}
 .static-page-image .list-item-2 span{background:@bgBase; font-size:18px; padding:10px 15px; color:@cWhite; }
 .static-page-image .list-item-2 i{padding:12px 12px 11px 12px; font-size:20px; background:@bgSliderOne; color:@cSliderOne;}

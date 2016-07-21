@@ -1,7 +1,7 @@
 /*
 Error: File to import not found or unreadable: bourbon.
-       Load path: /Users/alfredo/git/conferex-site/assets/social-buttons/scss
-        on line 1 of /Users/alfredo/git/conferex-site/assets/social-buttons/scss/demo.scss
+       Load path: /Users/alfredo/xdk/conferex/www/assets/social-buttons/scss
+        on line 1 of /Users/alfredo/xdk/conferex/www/assets/social-buttons/scss/demo.scss
 
 1: @import "bourbon";
 2: 
@@ -11,7 +11,7 @@ Error: File to import not found or unreadable: bourbon.
 6: $facebook: #306199;
 
 Backtrace:
-/Users/alfredo/git/conferex-site/assets/social-buttons/scss/demo.scss:1
+/Users/alfredo/xdk/conferex/www/assets/social-buttons/scss/demo.scss:1
 /Users/alfredo/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:66:in `rescue in import'
 /Users/alfredo/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:45:in `import'
 /Users/alfredo/Downloads/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -49,4 +49,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: /Users/alfredo/git/conferex-site/assets/social-buttons/scss\A         on line 1 of /Users/alfredo/git/conferex-site/assets/social-buttons/scss/demo.scss\A \A 1: @import \"bourbon\";\A 2: \A 3: // config settings\A 4: $button-contents: #fff;\A 5: $email: #0a88ff;\A 6: $facebook: #306199;"; }
+  content: "Error: File to import not found or unreadable: bourbon.\A        Load path: /Users/alfredo/xdk/conferex/www/assets/social-buttons/scss\A         on line 1 of /Users/alfredo/xdk/conferex/www/assets/social-buttons/scss/demo.scss\A \A 1: @import \"bourbon\";\A 2: \A 3: // config settings\A 4: $button-contents: #fff;\A 5: $email: #0a88ff;\A 6: $facebook: #306199;"; }
